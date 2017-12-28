@@ -51,6 +51,12 @@
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
 
+        <com.aospa.support.preference.SystemSettingSwitchPreference
+            android:key="kill_app_longpress_back"
+            android:title="@string/kill_app_longpress_back"
+            android:summary="@string/kill_app_longpress_back_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

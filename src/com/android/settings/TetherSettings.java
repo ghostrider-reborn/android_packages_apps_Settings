@@ -313,6 +313,8 @@ public class TetherSettings extends RestrictedSettingsFragment
                 updateState();
             } else if (action.equals(BLUETOOTH_TETHERING_STATE_CHANGED)) {
                 updateState();
+            } else if (action.equals(BLUETOOTH_TETHERING_STATE_CHANGED)) {
+                updateState();
             }
         }
     }
